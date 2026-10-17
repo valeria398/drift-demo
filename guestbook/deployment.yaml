@@ -34,8 +34,7 @@ spec:
 
         - name: guestbook-ui
 
-          image: gcr.io/heptio-images/ks-guestbook-demo:0.2
-
+          image: image: nginx:alpine
           ports:
 
             - containerPort: 80
